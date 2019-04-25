@@ -3,7 +3,6 @@ class Base {
         this.postData = resData.postData
         this.query = resData.query
         this.req = req
-        console.log(req.session, '123')
         this.res = res
     }
 

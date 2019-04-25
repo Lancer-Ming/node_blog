@@ -1,7 +1,6 @@
 const Connection = require('../database/index')
 
 class Model {
-    s = ''
     constructor() {
         //sql语句
         this.sql = ''
